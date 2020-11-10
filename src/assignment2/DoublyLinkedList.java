@@ -109,8 +109,6 @@ class DoublyLinkedList<T extends Comparable<T>> {
             DLLNode newNode = new DLLNode(data, null, null);
             head = newNode;
             tail = newNode;
-            // head.next = newNode;
-            // tail.next = newNode;
         } else if (pos < 1) {
             // Insert at front
             DLLNode temp = head;
