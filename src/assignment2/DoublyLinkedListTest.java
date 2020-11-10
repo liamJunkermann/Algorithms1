@@ -118,6 +118,7 @@ public class DoublyLinkedListTest {
     public void testReverse() {
         DoublyLinkedList<Integer> testDLL = new DoublyLinkedList<Integer>();
         testDLL.insertBefore(0, 1);
+        testDLL.reverse();
         assertEquals("Single Item", "1", testDLL.toString());
         testDLL.insertBefore(1, 2);
         testDLL.insertBefore(2, 3);

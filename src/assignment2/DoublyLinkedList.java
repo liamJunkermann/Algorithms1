@@ -83,7 +83,7 @@ class DoublyLinkedList<T extends Comparable<T>> {
      *         Justification: Constant because this is a simple If statment
      */
     public boolean isEmpty() {
-        if (head == null && tail == null)
+        if (head == null)
             return true;
         else
             return false;
